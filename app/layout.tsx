@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AppContext } from "next/app";
  import Link from "next/link";
+import { AppProvider } from "./contexto/AppContexto";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,8 +33,10 @@ export default function RootLayout({
           <Link href="/">Boton Home</Link>
     <Link href="/uno">Boton Uno</Link>
     <Link href="/uno">Boton Dos jaime</Link>
-        {children}
-        <
+        
+        <AppProvider>
+          {children}
+        </AppProvider>
         </body>
     </html>
   );
