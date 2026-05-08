@@ -5,7 +5,7 @@ export default function Uno(){
     <div>
     
 
-     uno
+     nos fuimos de viaje
     </div>
   );
 }
