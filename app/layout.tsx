@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
           <Link href="/">Boton Home</Link>
     <Link href="/uno">Boton Uno</Link>
-    <Link href="/uno">Boton Dos</Link>
+    <Link href="/uno">Boton Dos jaime</Link>
         {children}
         </body>
     </html>
